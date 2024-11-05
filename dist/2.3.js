@@ -9,13 +9,16 @@
     const user = [
         {
             name: "Akd",
-            age: 50
+            age: 50,
         },
         {
             name: "PKS",
-            age: 100
+            age: 100,
         },
     ];
     const manush = ["Mr.x", "Mr.y"];
-    const UserWithID = [123, { name: "Akd", age: 50 }];
+    const UserWithID = [
+        123,
+        { name: "Akd", age: 50 },
+    ];
 }
