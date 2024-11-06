@@ -103,4 +103,29 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     asyncData({ name: "Ayan", age: 25 }).then((data) => {
         console.log(data);
     });
+    //task 15
+    const isString = (value) => {
+        return typeof value === "string";
+    };
+    const printUpperCase = (value) => {
+        if (isString(value)) {
+            console.log(value.toUpperCase());
+        }
+        else {
+            console.log("value is not a string");
+        }
+    };
+    printUpperCase("hello");
+    printUpperCase(5);
+    const task16Function = (object, key) => {
+        return object[key];
+    };
+    const user = {
+        name: "Alice",
+        age: 30,
+        city: "New York",
+    };
+    console.log(task16Function(user, "name"));
+    console.log(task16Function(user, "age"));
+    console.log(task16Function(user, "city"));
 }
